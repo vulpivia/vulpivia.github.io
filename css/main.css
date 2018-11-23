@@ -1,131 +1,75 @@
-@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic&subset=latin);
- html, body {
-     padding:1em;
-     margin:auto;
-     max-width:1200px;
-     background:#fefefe;
+body {
+    background-color: var(--oc-gray-8);
+    color: var(--oc-gray-0);
+    font-family: overpass;
 }
- body {
-     font: 1.3em "Vollkorn", Palatino, Times;
-     color: #333;
-     line-height: 1.4;
-     text-align: justify;
+
+a {
+    color: var(--oc-violet-4);
+    text-decoration: none;
 }
- header, nav, article, footer {
-     width: 1200px;
-     margin:0 auto;
+
+header {
+    background-color: var(--oc-gray-9);
+    width: 1100px;
+    margin: auto;
+    padding: 50px;
 }
- article {
-     margin-top: 4em;
-     margin-bottom: 4em;
-     min-height: 400px;
+
+nav {
+    width: 1200px;
+    margin: auto;
 }
- footer {
-     margin-bottom:50px;
+
+article {
+    background-color: var(--oc-gray-9);
+    width: 1000px;
+    margin: auto;
+    padding: 75px 100px;
 }
- video {
-     margin: 2em 0;
-     border:1px solid #ddd;
+
+header img {
+    vertical-align: middle;
+    border-radius: 5px;
 }
- nav {
-     font-size: .9em;
-     font-style: italic;
-     border-bottom: 1px solid #ddd;
-     padding: 1em 0;
+
+header #title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 25px;
 }
- nav p {
-     margin: 0;
+
+header h1 {
+    margin: 0;
 }
-/* Typography -------------------------------------------------------- */
- h1 {
-     margin-top: 0;
-     font-weight: normal;
+
+header p {
+    color: var(--oc-gray-5);
+    margin: 0;
 }
- h2 {
-     font-weight: normal;
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
 }
- h3 {
-     font-weight: normal;
-     font-style: italic;
-     margin-top:3em;
+
+nav ul li {
+    display: inline;
 }
- p {
-     margin-top:0;
-     -webkit-hypens:auto;
-     -moz-hypens:auto;
-     hyphens:auto;
+
+nav ul li a {
+    color: var(--oc-gray-0);
+    padding: 25px;
+    display: inline-block;
+    font-size: 16px;
 }
- ul {
-     list-style: square;
-     padding-left:1.2em;
+
+nav ul li a:hover {
+    background-color: var(--oc-gray-9);
 }
- ol {
-     padding-left:1.2em;
+
+#current {
+    color: var(--oc-violet-4);
 }
- blockquote {
-     margin-left: 1em;
-     padding-left: 1em;
-     border-left: 1px solid #ddd;
-}
- code {
-     font-family: "Consolas", "Menlo", "Monaco", monospace, serif;
-     font-size: .9em;
-     background: white;
-}
- a {
-     color: #2484c1;
-     text-decoration: none;
-}
- a:hover {
-     text-decoration: underline;
-}
- a img {
-     border:none;
-}
- h1 a, h1 a:hover {
-     color: #333;
-     text-decoration: none;
-}
- hr {
-     color : #ddd;
-     height : 1px;
-     margin: 2em 0;
-     border-top : solid 1px #ddd;
-     border-bottom : none;
-     border-left: 0;
-     border-right: 0;
-}
- p#heart{
-     font-size: 2em;
-     line-height: 1;
-     text-align: center;
-     color: #ccc;
-}
- .red {
-     color:#B50000;
-}
-/* Home Page --------------------------- */
- body#index li {
-     margin-bottom: 1em;
-}
-/* iPad -------------------------------------------------------- */
- @media only screen and (max-device-width: 1024px) {
-     body {
-         font-size: 120%;
-         line-height: 1.4;
-    }
-}
-/* @iPad */
-/* iPhone -------------------------------------------------------- */
- @media only screen and (max-device-width: 480px) {
-     body {
-         text-align: left;
-    }
-     article, footer {
-         width: auto;
-    }
-     article {
-         padding: 0 10px;
-    }
-}
-/* @iPhone */
