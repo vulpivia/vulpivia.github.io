@@ -64,10 +64,17 @@ nav ul li a {
     padding: 25px;
     display: inline-block;
     font-size: 16px;
+    vertical-align: middle;
 }
 
 nav ul li a:hover {
     background-color: var(--oc-gray-9);
+}
+
+nav ul li a.icon {
+    font-size: 24px;
+    padding: 19.5px;
+    float: right;
 }
 
 #current {
