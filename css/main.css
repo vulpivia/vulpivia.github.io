@@ -11,7 +11,7 @@ a {
 
 h3 img {
     vertical-align: middle;
-    margin-left: 15px;
+    float: right;
 }
 
 header {
@@ -84,4 +84,17 @@ nav ul li a.icon {
 
 #current {
     color: var(--oc-violet-4);
+}
+
+.banner {
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.banner-elysia {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('/img/banner_elysia.png');
+}
+
+.banner-pixelpal {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('/img/banner_pixelpal.png');
 }
