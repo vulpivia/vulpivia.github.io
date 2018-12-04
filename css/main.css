@@ -38,7 +38,7 @@ header img {
     border-radius: 5px;
 }
 
-header #title {
+header .title {
     display: inline-block;
     vertical-align: middle;
     margin-left: 25px;
@@ -82,7 +82,7 @@ nav ul li a.icon {
     float: right;
 }
 
-#current {
+.current {
     color: var(--oc-violet-4);
 }
 
