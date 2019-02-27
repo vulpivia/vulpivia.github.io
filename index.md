@@ -5,6 +5,6 @@ layout: default
 
 ## Welcome
 
-Hi! I'm Norman, a programmer and musician from Switzerland. This site exists primarily
-for people to view the projects I'm working on. Currently, this site is a work in
-progress, but that should change as soon as I find the time to finish it.
+Hi! I'm Norman, a programmer and musician from Switzerland. I'm currently studying audio engineering in Zürich.
+
+Since you're already here, why not check out some of my [projects](projects.md)?
