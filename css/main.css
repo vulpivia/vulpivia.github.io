@@ -1,95 +1,150 @@
+/*
+    Tag Categories:      https://www.w3schools.com/tags/ref_byfunc.asp
+    Property Categories: https://htmldog.com/references/css/properties/
+*/
+
+/* Basic HTML */
+
 body {
-    background-color: var(--oc-gray-8);
-    color: var(--oc-gray-0);
+    /* Text and Fonts */
     font-family: overpass;
+    /* Colors and Backgrounds */
+    color: var(--oc-gray-0);
+    background-color: var(--oc-gray-8);
 }
 
-a {
-    color: var(--oc-violet-4);
-    text-decoration: none;
-}
-
-h3 img {
-    vertical-align: middle;
-    float: right;
-}
-
-header {
-    background-color: var(--oc-gray-9);
-    width: 1100px;
-    margin: auto;
-    padding: 50px;
-}
-
-nav {
-    width: 1200px;
-    margin: auto;
-}
-
-article {
-    background-color: var(--oc-gray-9);
-    width: 1000px;
-    margin: auto;
-    padding: 75px 100px;
-}
-
-header img {
-    vertical-align: middle;
-    border-radius: 5px;
-}
-
-header .title {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 25px;
-}
-
-header h1 {
+h1 {
+    /* The Box Model */
     margin: 0;
+}
+
+h3.banner {
+    /* Colors and Backgrounds */
+    border-radius: 5px;
+    /* The Box Model */
+    padding: 25px;
 }
 
 header p {
+    /* Colors and Backgrounds */
     color: var(--oc-gray-5);
+    /* The Box Model */
     margin: 0;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    font-size: 0;
-}
+/* Images */
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: var(--oc-gray-0);
-    padding: 25px;
-    display: inline-block;
-    font-size: 16px;
+img {
+    /* Text and Fonts */
     vertical-align: middle;
 }
 
-nav ul li a:hover {
-    background-color: var(--oc-gray-9);
-}
-
-nav ul li a.icon {
-    font-size: 24px;
-    padding: 19.5px;
+h3 img {
+    /* Visual Formatting */
     float: right;
 }
 
-.current {
+header img {
+    /* Colors and Backgrounds */
+    border-radius: 5px;
+}
+
+/* Links */
+
+a {
+    /* Text and Fonts */
+    text-decoration: none;
+    /* Colors and Backgrounds */
     color: var(--oc-violet-4);
 }
 
-.banner {
+nav a {
+    /* Text and Fonts */
+    font-size: 16px;
+    vertical-align: middle;
+    /* Colors and Backgrounds */
+    color: var(--oc-gray-0);
+    /* The Box Model */
     padding: 25px;
-    border-radius: 5px;
+    /* Visual Formatting */
+    display: inline-block;
 }
+
+nav a:hover {
+    /* Colors and Backgrounds */
+    background-color: var(--oc-gray-9);
+}
+
+nav a.current {
+    /* Colors and Backgrounds */
+    color: var(--oc-violet-4);
+}
+
+nav a.icon {
+    /* Text and Fonts */
+    font-size: 24px;
+    /* The Box Model */
+    padding: 19.5px;
+    /* Visual Formatting */
+    float: right;
+}
+
+nav {
+    /* The Box Model */
+    margin: auto;
+    /* Visual Formatting */
+    width: 1200px;
+}
+
+/* Lists */
+
+nav ul {
+    /* Text and Fonts */
+    font-size: 0;
+    /* The Box Model */
+    margin: 0;
+    padding: 0;
+    /* Generated Content and Lists */
+    list-style-type: none;
+}
+
+nav li {
+    /* Visual Formatting */
+    display: inline;
+}
+
+/* Styles and Semantics */
+
+header div {
+    /* Text and Fonts */
+    vertical-align: middle;
+    /* The Box Model */
+    margin-left: 25px;
+    /* Visual Formatting */
+    display: inline-block;
+}
+
+header {
+    /* Colors and Backgrounds */
+    background-color: var(--oc-gray-9);
+    /* The Box Model */
+    margin: auto;
+    padding: 50px;
+    /* Visual Formatting */
+    width: 1100px;
+}
+
+article {
+    /* Colors and Backgrounds */
+    background-color: var(--oc-gray-9);
+    /* The Box Model */
+    margin: auto;
+    padding: 75px 100px;
+    /* Visual Formatting */
+    width: 1000px;
+}
+
+/* Specific Images */
 
 .banner-elysia {
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('/img/banner_elysia.png');
@@ -97,4 +152,52 @@ nav ul li a.icon {
 
 .banner-pixelpal {
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('/img/banner_pixelpal.png');
+}
+
+/* Mobile */
+
+@media screen and (max-width: 1200px) {
+    /* Links */
+
+    nav {
+        /* Visual Formatting */
+        width: 100%;
+    }
+
+    /* Styles and Semantics */
+
+    header {
+        /* Visual Formatting */
+        width: calc(100% - 100px);
+    }
+
+    article {
+        /* Visual Formatting */
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Basic HTML */
+
+    body {
+        /* Visual Formatting */
+        min-width: 401px;
+    }
+
+    /* Styles and Semantics */
+
+    header {
+        /* The Box Model */
+        padding: 10px;
+        /* Visual Formatting */
+        width: calc(100% - 20px);
+    }
+
+    article {
+        /* The Box Model */
+        padding: 50px;
+        /* Visual Formatting */
+        width: calc(100% - 100px);
+    }
 }
