@@ -5,7 +5,7 @@ layout: default
 
 ## Games
 
-### Elysia ![in development](https://img.shields.io/badge/status-in development-red.svg)
+### Elysia ![in development](https://img.shields.io/badge/status-on hold-lightgray.svg)
 {: class="banner banner-elysia"}
 
 Elysia is a single-player 2D tactical RPG written in [Haxe](https://haxe.org/) and
