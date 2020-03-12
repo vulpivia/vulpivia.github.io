@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family==Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro&display=swap" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
+
+    <link rel="stylesheet" href="/css/monochrome.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://acid147.github.io/index">About</a></li>
+            <li><a href="https://acid147.github.io/projects">Projects</a></li>
+            <li>
+                <a href="https://github.com/Acid147" class="icon"><i class="zmdi zmdi-github"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/offacid" class="icon"><i class="zmdi zmdi-twitter"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <article>
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+    </article>
+</body>
+
+</html>

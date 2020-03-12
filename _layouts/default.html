@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49292807-2"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-            gtag('config', 'UA-49292807-2');
-        </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49292807-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-        <title>{{ page.title }} | {{ site.title }}</title>
+        gtag('config', 'UA-49292807-2');
+    </script>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-color/1.6.3/open-color.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overpass/3.0.3/overpass-webfont/overpass.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
+    <title>{{ page.title }} | {{ site.title }}</title>
 
-        <link rel="stylesheet" href="/css/main.css" />
-    </head>
-    <body>
-        <header>
-            <img src="img/avatar.png" alt="Avatar" />
-            <div>
-                <h1>{{ site.title }}</h1>
-                <p>{{ site.subtitle }}</p>
-            </div>
-        </header>
-        <nav>
-            <ul>
-                <li><a {% if page.title == "Home" %} class="current" {% endif %} href="/index">Home</a></li>
-                <li><a {% if page.title == "Projects" %} class="current" {% endif %} href="/projects">Projects</a></li>
-                <li><a {% if page.title == "Pixel Art" %} class="current" {% endif %} href="/pixel-art">Pixel Art</a></li>
-                <!--<li><a {% if page.title == "Contact" %} class="current" {% endif %} href="/contact">Contact</a></li>-->
-                <li><a class="icon" href="https://github.com/Acid147"><i class="zmdi zmdi-github"></i></a></li>
-                <li><a class="icon" href="https://twitter.com/offacid"><i class="zmdi zmdi-twitter"></i></a></li>
-            </ul>
-        </nav>
-        <article>
-            {{ content }}
-        </article>
-    </body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-color/1.6.3/open-color.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/overpass/3.0.3/overpass-webfont/overpass.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
+
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+    <header>
+        <img src="img/avatar.png" alt="Avatar" />
+        <div>
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.subtitle }}</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a {% if page.title == "Home" %} class="current" {% endif %} href="/index">Home</a></li>
+            <li><a {% if page.title == "Projects" %} class="current" {% endif %} href="/projects">Projects</a></li>
+            <li><a {% if page.title == "Music" %} class="current" {% endif %} href="/music">Music</a></li>
+            <!--<li><a {% if page.title == "Pixel Art" %} class="current" {% endif %} href="/pixel-art">Pixel Art</a></li>-->
+            <!--<li><a {% if page.title == "Contact" %} class="current" {% endif %} href="/contact">Contact</a></li>-->
+            <li><a class="icon" href="https://github.com/Acid147"><i class="zmdi zmdi-github"></i></a></li>
+            <li><a class="icon" href="https://twitter.com/offacid"><i class="zmdi zmdi-twitter"></i></a></li>
+        </ul>
+    </nav>
+    <article>
+        {{ content }}
+    </article>
+</body>
+
 </html>

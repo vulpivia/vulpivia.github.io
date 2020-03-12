@@ -1,10 +1,12 @@
 ---
-title: Home
-layout: default
+title: About
+layout: monochrome
 ---
 
-## Welcome
+Norman Rauschen a programmer and composer from Switzerland, currently studying
+audio engineering and creating different small
+[projects](https://acid147.github.io/projects.html) in his free time.
 
-Hi! I'm Norman, a programmer and musician from Switzerland. I'm currently studying audio engineering in Zürich.
-
-Since you're already here, why not check out some of my [projects](projects.md)?
+After playing in several small bands, Norman began writing songs by himself.
+This, together with experience in programming small games, soon developed into
+an interest for the creation of video game music.
