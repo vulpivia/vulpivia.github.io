@@ -3,61 +3,61 @@
  */
 
 body {
-    /* Text and Fonts */
-    font-size: 0;
+  /* Text and Fonts */
+  font-size: 0;
 
-    /* The Box Model */
-    margin: 0;
+  /* The Box Model */
+  margin: 0;
 }
 
 h1 {
-    /* Text and Fonts */
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 40px;
-    font-weight: normal;
+  /* Text and Fonts */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 44px;
+  font-weight: normal;
 
-    /* The Box Model */
-    margin-top: 32px;
-    margin-right: 0;
-    margin-bottom: 32px;
-    margin-left: 0;
+  /* The Box Model */
+  margin-top: 32px;
+  margin-right: 0;
+  margin-bottom: 32px;
+  margin-left: 0;
 
-    /* Visual Formatting */
-    display: block;
+  /* Visual Formatting */
+  display: block;
 }
 
 h2 {
-    /* Text and Fonts */
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 32px;
-    font-weight: normal;
+  /* Text and Fonts */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32px;
+  font-weight: normal;
 
-    /* The Box Model */
-    margin-top: 24px;
-    margin-right: 0;
-    margin-bottom: 24px;
-    margin-left: 0;
+  /* The Box Model */
+  margin-top: 24px;
+  margin-right: 0;
+  margin-bottom: 24px;
+  margin-left: 0;
 
-    /* Visual Formatting */
-    display: block;
+  /* Visual Formatting */
+  display: block;
 }
 
 p {
-    /* Text and Fonts */
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 18px;
+  /* Text and Fonts */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
 
-    /* The Box Model */
-    margin-top: 24px;
-    margin-right: 0;
-    margin-bottom: 24px;
-    margin-left: 0;
+  /* The Box Model */
+  margin-top: 24px;
+  margin-right: 0;
+  margin-bottom: 24px;
+  margin-left: 0;
 
-    /* Visual Formatting */
-    display: block;
+  /* Visual Formatting */
+  display: block;
 
-    /* Uncategorized */
-    hyphens: auto;
+  /* Uncategorized */
+  hyphens: auto;
 }
 
 /*
@@ -65,68 +65,80 @@ p {
  */
 
 a {
-    /* Colors and Backgrounds */
-    color: #000;
+  /* Colors and Backgrounds */
+  color: #000;
 }
 
 nav a {
-    /* Text an Fonts */
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 18px;
-    text-decoration: none;
-    vertical-align: top;
+  /* Text an Fonts */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  vertical-align: top;
 
-    /* Colors and Backgrounds */
-    color: #eee;
+  /* Colors and Backgrounds */
+  color: #eee;
 
-    /* The Box Model */
-    padding: 16px 24px;
+  /* The Box Model */
+  padding: 16px 24px;
 
-    /* Visual Formatting */
-    display: inline-block;
+  /* Visual Formatting */
+  display: inline-block;
 }
 
 nav a:hover {
-    /* Colors and Backgrounds */
-    color: #fff;
-    background-color: #222;
+  /* Colors and Backgrounds */
+  color: #fff;
+  background-color: #222;
 }
 
 nav a.icon {
-    /* Text and Fonts */
-    font-size: 24px;
+  /* Text and Fonts */
+  font-size: 24px;
 
-    /* The Box Model */
-    padding: 12px 24px;
+  /* The Box Model */
+  padding: 12px 24px;
 
-    /* Visual Formatting */
-    float: right;
+  /* Visual Formatting */
+  float: right;
 }
 
 nav {
-    /* Colors and Backgrounds */
-    background-color: #000;
+  /* Colors and Backgrounds */
+  background-color: #000;
 }
 
 /*
  * Lists
  */
 
+li {
+  /* Text and Fonts */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+
+  /* Colors and Backgrounds */
+  color: #555;
+
+  /* Generated Content and Lists */
+  list-style-type: circle;
+}
+
 nav ul {
-    /* The Box Model */
-    margin: 0 auto;
-    padding: 0;
+  /* The Box Model */
+  margin: 0 auto;
+  padding: 0;
 
-    /* Visual Formatting */
-    max-width: 896px;
+  /* Visual Formatting */
+  max-width: 896px;
 
-    /* Generated Content and Lists */
-    list-style-type: none;
+  /* Generated Content and Lists */
+  list-style-type: none;
 }
 
 nav li {
-    /* Visual Formatting */
-    display: inline;
+  /* Visual Formatting */
+  display: inline;
 }
 
 /*
@@ -134,15 +146,15 @@ nav li {
  */
 
 article {
-    /* Colors and Backgrounds */
-    color: #333;
-    background-color: #fff;
+  /* Colors and Backgrounds */
+  color: #333;
+  background-color: #fff;
 
-    /* The Box Model */
-    margin: auto;
-    padding: 16px 64px;
+  /* The Box Model */
+  margin: auto;
+  padding: 16px 64px;
 
-    /* Visual Formatting */
-    max-width: 768px;
-    display: block;
+  /* Visual Formatting */
+  max-width: 768px;
+  display: block;
 }
