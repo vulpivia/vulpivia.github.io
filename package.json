@@ -1,0 +1,15 @@
+{
+  "name": "vulpivia.github.io",
+  "version": "0.1.0",
+  "keywords": ["GitHub Pages", "vulpivia"],
+  "homepage": "https://vulpivia.github.io/",
+  "bugs": {
+    "url": "https://github.com/vulpivia/vulpivia.github.io/issues"
+  },
+  "author": "vulpivia (https://vulpivia.github.io/)",
+  "repository": "github:vulpivia/vulpivia.github.io",
+  "dependencies": {},
+  "devDependencies": {
+    "@linthtml/linthtml": "0.8.4"
+  }
+}
